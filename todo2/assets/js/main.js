@@ -23,6 +23,11 @@
       }
     });
 
+    //"+" effect
+    $(".fa-plus-square").click(function(){
+      $("input[type='text']").fadeToggle(400);
+    })
+
 
 
 
